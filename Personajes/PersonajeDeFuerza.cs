@@ -20,9 +20,25 @@ namespace Personajes
             Agility = agility;
             Magic = magic;
         }
+
+        public override string Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override int Strength { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override int Agility { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override int Magic { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         public override int CalcularDanio()
         {
             return ((Strength + Agility + Magic) * 4);
+        }
+
+        public override int MoverseEjeX()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override int MoverseEjeY()
+        {
+            throw new NotImplementedException();
         }
     }
 }
