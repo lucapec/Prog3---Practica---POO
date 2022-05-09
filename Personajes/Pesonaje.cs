@@ -21,10 +21,10 @@ hizo
 de daño”. Donde x es el daño calculado.*/
     abstract class Personaje : IMoverse
     {
-        public abstract string Name { get; set; }
-        public abstract int Strength { get; set; }
-        public abstract int Agility { get; set; }
-        public abstract int Magic { get; set; }
+        public string? Name { get; set; }
+        public int Strength { get; set; }
+        public int Agility { get; set; }
+        public int Magic { get; set; }
 
 
         public abstract int CalcularDanio();

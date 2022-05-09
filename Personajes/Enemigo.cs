@@ -14,12 +14,12 @@ namespace Personajes
 
         public int MoverseEjeX()
         {
-            throw new NotImplementedException();
+            return 5;
         }
 
         public int MoverseEjeY()
         {
-            throw new NotImplementedException();
+            return 5;
         }
     }
 }

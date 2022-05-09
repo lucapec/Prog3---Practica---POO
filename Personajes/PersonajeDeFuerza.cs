@@ -12,7 +12,7 @@ namespace Personajes
    Fuerza estará por defecto en 100. CalcularDanio que calcula el daño en base a una fórmula que involucra las 3 propiedades (queda a imaginación de ustedes)*/
     internal class PersonajeDeFuerza : Personaje
     {
-       
+
         public PersonajeDeFuerza(string name, int agility, int magic)
         {
             Name = name;
@@ -21,10 +21,6 @@ namespace Personajes
             Magic = magic;
         }
 
-        public override string Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override int Strength { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override int Agility { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override int Magic { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public override int CalcularDanio()
         {
@@ -33,12 +29,12 @@ namespace Personajes
 
         public override int MoverseEjeX()
         {
-            throw new NotImplementedException();
+            return 4;
         }
 
         public override int MoverseEjeY()
         {
-            throw new NotImplementedException();
+            return 4;
         }
     }
 }

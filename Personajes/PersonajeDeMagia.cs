@@ -16,12 +16,7 @@ de daño gracias a su magia” y utilizar la fórmula Fuerza+Agilidad+Magia*4 pa
     {
         protected int damage_;
 
-        public override string Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override int Strength { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override int Agility { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override int Magic { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
-        public PersonajeDeMagia1(string name, int strength, int agility, int magic)
+        public PersonajeDeMagia(string name, int strength, int agility, int magic)
         {
             Name = name;
             Strength = strength;
@@ -29,7 +24,7 @@ de daño gracias a su magia” y utilizar la fórmula Fuerza+Agilidad+Magia*4 pa
             Magic = magic;
         }
 
-        public PersonajeDeMagia2(string name, int strength, int agility)
+        public PersonajeDeMagia(string name, int strength, int agility)
         {
             Name = name;
             Strength = strength;
@@ -50,12 +45,12 @@ de daño gracias a su magia” y utilizar la fórmula Fuerza+Agilidad+Magia*4 pa
 
         public override int MoverseEjeX()
         {
-            throw new NotImplementedException();
+            return 6;
         }
 
         public override int MoverseEjeY()
         {
-            throw new NotImplementedException();
+            return 2;
         }
     }
 }
