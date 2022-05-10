@@ -1,0 +1,15 @@
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\bin\Debug\net6.0\Personajes.exe
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\bin\Debug\net6.0\Personajes.deps.json
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\bin\Debug\net6.0\Personajes.runtimeconfig.json
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\bin\Debug\net6.0\Personajes.dll
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\bin\Debug\net6.0\Personajes.pdb
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\obj\Debug\net6.0\Personajes.csproj.AssemblyReference.cache
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\obj\Debug\net6.0\Personajes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\obj\Debug\net6.0\Personajes.AssemblyInfoInputs.cache
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\obj\Debug\net6.0\Personajes.AssemblyInfo.cs
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\obj\Debug\net6.0\Personajes.csproj.CoreCompileInputs.cache
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\obj\Debug\net6.0\Personajes.dll
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\obj\Debug\net6.0\refint\Personajes.dll
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\obj\Debug\net6.0\Personajes.pdb
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\obj\Debug\net6.0\Personajes.genruntimeconfig.cache
+C:\Users\lucap\source\repos\Prog3---Practica---POO\Personajes\obj\Debug\net6.0\ref\Personajes.dll

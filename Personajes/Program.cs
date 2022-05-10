@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
 /*Personaje
 Crear una clase abstracta llamada Personaje, que tenga las siguientes propiedades:
 Nombre
@@ -40,3 +39,32 @@ El segundo recibe un objeto que implementa IMoverse y los hace moverse en el eje
 Hacer que en program reciba algunos personajes y un enemigo para probar.
 
 */
+namespace Personajes
+{
+ 
+    public class Program
+    {
+        public static void Main()
+        {
+            List<Personaje> personajes = new List<Personaje>();
+            personajes.Add(new PersonajeDeFuerza("Kratos", 45, 23));
+            personajes.Add(new PersonajeDeAgilidad("Ninja", 45, 80, 23));
+            personajes.Add(new PersonajeDeMagia("Mago oscuro", 45, 23));
+            personajes.Add(new PersonajeDeMagia("Harry Potter", 45, 23, 80));
+            personajes.Add(new PersonajeDeFuerza("Dante", 60, 40));
+
+            foreach (var personaje in personajes)
+            {
+                Console.WriteLine(personaje.Name);
+                Console.WriteLine(personaje.Strength);
+                Console.WriteLine(personaje.Agility);
+                Console.WriteLine(personaje.Magic);
+            }
+
+            personajes.Atacarse();
+            personajes.MoverFichas(Ficha);
+
+
+        }
+    }
+}

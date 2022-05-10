@@ -22,6 +22,8 @@ El segundo recibe un objeto que implementa IMoverse y los hace moverse en el eje
 
         public static void MoverFichas(IMoverse ficha)
         {
+            ficha.MoverseEjeX();
+            ficha.MoverseEjeY();
 
         }
 

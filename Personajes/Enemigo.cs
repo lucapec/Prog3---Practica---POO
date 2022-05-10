@@ -7,10 +7,15 @@ using System.Threading.Tasks;
 namespace Personajes
 {
     /*Crear una clase Enemigo que tenga vida y nivel.*/
-    internal class Enemigo : IMoverse
+    public class Enemigo : IMoverse
     {
         public int Life;
         public int Level;
+        public Enemigo(int life, int level)
+        {
+            Life = life;
+            Level = level;
+        }
 
         public int MoverseEjeX()
         {

@@ -37,7 +37,7 @@ de daño gracias a su magia” y utilizar la fórmula Fuerza+Agilidad+Magia*4 pa
             return (Strength + Agility + Magic) * 4;
         }
 
-        public override string Atacar(string name, int damage)
+        public override string Atacar(string? name, int damage)
         {
             return $"{name} hizo {CalcularDanio()} de daño gracias a su magia";
         }
