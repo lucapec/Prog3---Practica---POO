@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Personajes
 {
     /*Crear una interfaz IMoverse que tenga 2 métodos: MoverseEjeX y MoverseEjeY. Todos los personajes y enemigos deben implementar esta interfaz.*/
-    internal interface IMoverse
+    public interface IMoverse
     {
         int MoverseEjeX();
         int MoverseEjeY();

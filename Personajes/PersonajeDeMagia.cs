@@ -12,7 +12,7 @@ hizo
 { x}
 de daño gracias a su magia” y utilizar la fórmula Fuerza+Agilidad+Magia*4 para calcular el daño.
 */
-    internal class PersonajeDeMagia : Personaje
+    public class PersonajeDeMagia : Personaje
     {
         
 

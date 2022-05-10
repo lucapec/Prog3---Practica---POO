@@ -19,7 +19,7 @@ El método abstracto CalcularDanio y Atacar muestra por consola: “{ nombre}
 hizo
 { x}
 de daño”. Donde x es el daño calculado.*/
-    abstract class Personaje : IMoverse
+    public abstract class Personaje : IMoverse
     {
         public string? Name { get; set; }
         public int Strength { get; set; }

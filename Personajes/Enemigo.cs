@@ -9,10 +9,12 @@ namespace Personajes
     /*Crear una clase Enemigo que tenga vida y nivel.*/
     public class Enemigo : IMoverse
     {
+        public string? Name;
         public int Life;
         public int Level;
-        public Enemigo(int life, int level)
+        public Enemigo(string name, int life, int level)
         {
+            Name = name;
             Life = life;
             Level = level;
         }

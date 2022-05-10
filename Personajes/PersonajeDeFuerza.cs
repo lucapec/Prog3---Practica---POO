@@ -10,7 +10,7 @@ namespace Personajes
     /*Crear una clase llamada PersonajeDeFuerza, que implemente a Personaje.
    Crear un constructor para PersonajeDeFuerza que reciba los tres atributos de parámetro y se los asigne a Nombre Agilidad y Magia respectivamente.
    Fuerza estará por defecto en 100. CalcularDanio que calcula el daño en base a una fórmula que involucra las 3 propiedades (queda a imaginación de ustedes)*/
-    internal class PersonajeDeFuerza : Personaje
+    public class PersonajeDeFuerza : Personaje
     {
 
         public PersonajeDeFuerza(string name, int agility, int magic)

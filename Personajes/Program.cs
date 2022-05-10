@@ -53,18 +53,26 @@ namespace Personajes
             personajes.Add(new PersonajeDeMagia("Harry Potter", 45, 23, 80));
             personajes.Add(new PersonajeDeFuerza("Dante", 60, 40));
 
+            Console.WriteLine("///////////////////Heroes///////////////////////////");
+
             foreach (var personaje in personajes)
             {
-                Console.WriteLine(personaje.Name);
-                Console.WriteLine(personaje.Strength);
-                Console.WriteLine(personaje.Agility);
-                Console.WriteLine(personaje.Magic);
+                Console.WriteLine($"Nombre: {personaje.Name} Fuerza: {personaje.Strength} Agilidad: {personaje.Agility} Magia: {personaje.Magic}");
             }
 
-            personajes.Atacarse();
-            personajes.MoverFichas(Ficha);
+            Console.WriteLine("///////////////////Enemigos///////////////////////////");
+            List<Enemigo> enemigos = new List<Enemigo>();
+            enemigos.Add(new Enemigo("Obito", 100, 87));
+            enemigos.Add(new Enemigo("Mahito", 78, 47));
+            enemigos.Add(new Enemigo("Kaguya", 84, 14));
 
+            foreach (var enemigo in enemigos)
+            {
+                Console.WriteLine($"Nombre: {enemigo.Name} Vida: {enemigo.Life} Nivel: {enemigo.Level}");
+            }
 
+            Turno.Atacarse(personajes);
+            //Turno.MoverFichas(ficha); ver esto. tengo que meter cada personaje en la fichas
         }
     }
 }
