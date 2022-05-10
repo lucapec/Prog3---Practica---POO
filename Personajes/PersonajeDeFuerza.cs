@@ -27,6 +27,11 @@ namespace Personajes
             return ((Strength + Agility + Magic) * 4);
         }
 
+        public override string Atacar(string name, int damage)
+        {
+            return base.Atacar(name, damage);
+        }
+
         public override int MoverseEjeX()
         {
             return 4;

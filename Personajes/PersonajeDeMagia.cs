@@ -14,7 +14,7 @@ de daño gracias a su magia” y utilizar la fórmula Fuerza+Agilidad+Magia*4 pa
 */
     internal class PersonajeDeMagia : Personaje
     {
-        protected int damage_;
+        
 
         public PersonajeDeMagia(string name, int strength, int agility, int magic)
         {
@@ -34,13 +34,12 @@ de daño gracias a su magia” y utilizar la fórmula Fuerza+Agilidad+Magia*4 pa
 
         public override int CalcularDanio()
         {
-            damage_ = (Strength + Agility + Magic) * 4;
-            return damage_; 
+            return (Strength + Agility + Magic) * 4;
         }
 
         public override string Atacar(string name, int damage)
         {
-            return $"{name} hizo {damage_} de daño gracias a su magia";
+            return $"{name} hizo {CalcularDanio()} de daño gracias a su magia";
         }
 
         public override int MoverseEjeX()

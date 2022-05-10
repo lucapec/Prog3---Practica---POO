@@ -13,11 +13,11 @@ public static void MoverFichas(IMoverse ficha)
 
 El primero tiene que recibir una lista de todos los personajes instanciados y hacerlos atacar.
 El segundo recibe un objeto que implementa IMoverse y los hace moverse en el eje X y en el Y.*/
-    static class Turno
+    static class Turno 
     {
         public static void Atacarse(IList<Personaje> personajes)
         {
-
+            personajes.Select(personaje => personaje.Atacar(personaje.Name, personaje.CalcularDanio()).ToList());
         }
 
         public static void MoverFichas(IMoverse ficha)

@@ -28,11 +28,10 @@ de daño”. Donde x es el daño calculado.*/
 
 
         public abstract int CalcularDanio();
-        public virtual string Atacar(string name, int damage)
+        public virtual string Atacar(string? name, int damage)
         {
             return $"{name} hizo {damage} de daño";
         }
-
         public abstract int MoverseEjeX();
         public abstract int MoverseEjeY();
     }
