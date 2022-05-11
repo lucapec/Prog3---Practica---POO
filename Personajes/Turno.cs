@@ -17,8 +17,11 @@ El segundo recibe un objeto que implementa IMoverse y los hace moverse en el eje
     {
         public static void Atacarse(IList<Personaje> personajes)
         { 
-            /*Chequear con un Console Write Line o como mostrar la ejecución*/
-            personajes.Select(personaje => personaje.Atacar(personaje.Name, personaje.CalcularDanio()).ToList());
+          
+            foreach (var personaje in personajes)
+            {
+                personaje.Atacar();
+            }
         }
 
         public static void MoverFichas(IMoverse ficha)

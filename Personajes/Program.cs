@@ -72,7 +72,8 @@ namespace Personajes
             }
 
             Turno.Atacarse(personajes);
-            //Turno.MoverFichas(ficha); ver esto. tengo que meter cada personaje en la fichas
+            Turno.MoverFichas(personajes[1]);
+            Turno.MoverFichas(enemigos[1]);
         }
     }
 }

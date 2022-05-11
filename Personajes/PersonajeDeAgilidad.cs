@@ -27,10 +27,6 @@ namespace Personajes
             return ((Strength / 2) * ((Agility * Magic) / 2)); 
         }
 
-        public override string Atacar(string? name, int damage)
-        {
-            return base.Atacar(name, CalcularDanio());
-        }
         public override int MoverseEjeX()
         {
             return 9;
